@@ -1,1 +1,6 @@
 c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\bin\Debug\Lab32515.exe.config
+c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\bin\Debug\Lab32515.exe
+c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\bin\Debug\Lab32515.pdb
+c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\obj\Debug\Lab32515.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\obj\Debug\Lab32515.exe
+c:\users\nick\documents\visual studio 2013\Projects\Lab32515\Lab32515\obj\Debug\Lab32515.pdb
