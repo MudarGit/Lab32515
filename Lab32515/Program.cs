@@ -8,9 +8,13 @@ namespace Lab32515
 {
     class Program
     {
+       
+
         static void Main(string[] args)
         {
-           //
+            
+            
+            //
             //
             // Income Tax Calculator
             //
@@ -94,7 +98,7 @@ namespace Lab32515
 
             //    if (counter1 % 3 == 0)
             //    {
-                   
+
             //        Console.WriteLine("Fizz");
             //    }
             //    if (counter1 % 5 == 0)
@@ -113,19 +117,44 @@ namespace Lab32515
             //
             //
 
-            string name = "nicholas";
+            // string name = "nicholas";
 
-            char[] array = name.ToCharArray();
-            Array.Reverse(array);
-            Console.WriteLine(array);
+            // char[] array = name.ToCharArray();
+            //  Array.Reverse(array);
+            //  Console.WriteLine(array);
+
+            //
+            //
+            // extra credit 
+            //
+            //
+
+
+            string name1 = "Nick";
+            string name2 = "Mudar";
 
 
 
-            
+            char[] array2 = name2.ToCharArray();
+            Array.Reverse(array2);
+            //Console.WriteLine(array2);
+            char[] array1 = name1.ToCharArray();
+            Array.Reverse(array1);
+            //Console.WriteLine(array1);
 
+            string full = new string(array1);
+            string First = new string(array2);
 
-            
-
+            string[] Final = {First, full};
+            foreach (var item in Final)
+            {
+                Console.WriteLine(item);
+            }
         }
+
+       
+        
     }
+    
+    
 }
