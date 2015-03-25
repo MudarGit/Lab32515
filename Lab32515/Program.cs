@@ -10,31 +10,72 @@ namespace Lab32515
     {
         static void Main(string[] args)
         {
-            int income;
-            string value = args[0];
-            income = Convert.ToInt32(value);
-            int taxes;
+           //
+            //
+            // Income Tax Calculator
+            //
+            //
+            
+            //int income;
+            //string value = args[0];
+            //income = Convert.ToInt32(value);
+            //int taxes;
 
-            if(income <=20000)
+            //if(income <=20000)
+            //{
+            //    taxes = income * 1 / 20;
+            //    Console.WriteLine(taxes);
+            //}
+            //if(income >20000 && income <= 50000)
+            //{
+            //    taxes = income * 1 / 10;
+            //    Console.WriteLine(taxes);
+            //}
+            //if(income >50000 && income <= 75000)
+            //{
+            //    taxes = income * 1 / 5;
+            //    Console.WriteLine(taxes);
+            //}
+            //if (income > 75000)
+            //{
+            //    taxes = income * 35 / 100;
+            //    Console.WriteLine(taxes);
+            //}
+
+            //
+            //
+            // Time and Classifications
+            //
+            //
+
+            var time = (System.DateTime.Now);
+            var timeseconds = (System.DateTime.Now.Second);
+
+            Console.WriteLine(time);
+            Console.WriteLine(timeseconds);
+
+            if(timeseconds == 0)
             {
-                taxes = income * 1 / 20;
-                Console.WriteLine(taxes);
+                Console.WriteLine("The new minute is just beginning");
             }
-            if(income >20000 && income <= 50000)
+            if (timeseconds == 15)
             {
-                taxes = income * 1 / 10;
-                Console.WriteLine(taxes);
+                Console.WriteLine("we're one quarter done");
             }
-            if(income >50000 && income <= 75000)
+            if (timeseconds == 30)
             {
-                taxes = income * 1 / 5;
-                Console.WriteLine(taxes);
+                Console.WriteLine("half way there");
             }
-            if (income > 75000)
+            if (timeseconds == 45)
             {
-                taxes = income * 35 / 100;
-                Console.WriteLine(taxes);
+                Console.WriteLine("getting close to done");
             }
+            else
+            {
+                Console.WriteLine("Working on it");
+            }
+
+
 
         }
     }
